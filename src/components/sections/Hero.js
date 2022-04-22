@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import SoundP from "../../assets/BEHULEE.mp3";
 import useSound from "use-sound";
-import Image from "../elements/Image";
+// import Image from "../elements/Image";
 
 import myImage from "../../assets/images/cercle.png";
 const propTypes = {
