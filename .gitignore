@@ -11,6 +11,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .Ds_Store
 # Runtime data
 pids
+node_modules/
+/node_modules
 *.pid
 *.seed
 *.pid.lock
