@@ -84,7 +84,7 @@ const Hero = ({
             </div>
 
             <span style={{ color: showText ? "rgba(0, 0, 0,0)" : "#FFA173" }}>
-              Suprise Me ! 👇
+              Suprise Me !{" "}
             </span>
           </div>
           {/* <div
