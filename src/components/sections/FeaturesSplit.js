@@ -54,6 +54,34 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
             <div className="split-item">
               <div
+                className="split-item-content center-content-mobile reveal-from-right"
+                data-reveal-container=".split-item"
+              >
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  In the arithmetic of love, one plus one equals everything
+                </div>
+                <h3 className="mt-0 mb-12 text-color-warning couple-text">
+                  The Groom: Santosh
+                </h3>
+                {/* <p className="m-0">Santosh</p> */}
+              </div>
+              <div
+                className={classNames(
+                  "split-item-image center-content-mobile reveal-from-bottom",
+                  imageFill && "split-item-image-fill"
+                )}
+                data-reveal-container=".split-item"
+              >
+                <Image
+                  src={require("./../../assets/images/santosh.png")}
+                  alt="Features split 02"
+                  width={528}
+                  height={396}
+                />
+              </div>
+            </div>
+            <div className="split-item">
+              <div
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
@@ -62,14 +90,9 @@ const FeaturesSplit = ({
                   beauty
                 </div>
                 <h3 className="mt-0 mb-12 text-color-warning couple-text">
-                  About the Bride
+                  The Bride: Priyanka
                 </h3>
-                <p className="m-0">
-                  Hi I am Nandani Das (Niki). I am a warm, caring, loving &
-                  trustworthy person. I share a very special bond with all my
-                  friends & family. I love singing, Dancing and all there is for
-                  entertainment.
-                </p>
+                {/* <p className="m-0">Priyanka</p> */}
               </div>
               <div
                 className={classNames(
@@ -79,7 +102,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/bride.jpg")}
+                  src={require("./../../assets/images/priyanks.jpg")}
                   alt="Features split 01"
                   width={528}
                   height={396}
@@ -87,41 +110,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
-              <div
-                className="split-item-content center-content-mobile reveal-from-right"
-                data-reveal-container=".split-item"
-              >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  In the arithmetic of love, one plus one equals everything
-                </div>
-                <h3 className="mt-0 mb-12 text-color-warning couple-text">
-                  About the Groom
-                </h3>
-                <p className="m-0">
-                  Hi I am Sanjeev Das. Currently a undergraduate pursuing BCT. I
-                  live with my family which includes my parents and my little
-                  brother. I am a family oriented person and have confidence in
-                  living in a joint family. In my free time, I do coding and
-                  cubing as my hobby
-                </p>
-              </div>
-              <div
-                className={classNames(
-                  "split-item-image center-content-mobile reveal-from-bottom",
-                  imageFill && "split-item-image-fill"
-                )}
-                data-reveal-container=".split-item"
-              >
-                <Image
-                  src={require("./../../assets/images/groom.jpg")}
-                  alt="Features split 02"
-                  width={528}
-                  height={396}
-                />
-              </div>
-            </div>
-            <div className="split-item">
+            {/* <div className="split-item">
               <div
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
@@ -151,7 +140,7 @@ const FeaturesSplit = ({
                   height={396}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

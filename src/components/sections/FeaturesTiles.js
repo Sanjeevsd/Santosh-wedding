@@ -60,6 +60,21 @@ const FeaturesTiles = ({
               <CountDown deadline="May 02, 2022" />
             </Grid>
           </Grid>
+
+          <div
+            className="hero-figure invitation  center-content illustration-element-01"
+            data-reveal-value="20px"
+            data-reveal-delay="800"
+          >
+            <Image
+              className="has-shadow"
+              src={require("./wed-floral.png")}
+              // src={require("./../../assets/images/invitation.jpg")}
+              alt="Hero"
+              width={896}
+              height={504}
+            />
+          </div>
           <div
             className="hero-figure invitation  center-content illustration-element-01"
             data-reveal-value="20px"
